@@ -1,0 +1,12 @@
+public class codigo {
+
+    public static void main(String[] args) {
+        
+        String nome = "juana"; 
+        int idade = 87;
+        double salario = 1600.00;
+        
+        
+        System.out.println("Olá," + nome + "! Você tem" + idade + "anos e seu salário é de R$" + salario);
+}
+}
