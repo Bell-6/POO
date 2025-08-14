@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class questão3 {
+      public static void main(String[] args) {
+        Scanner scanner = new Scanner (System.in);
+
+        System.out.println("Qual sua altura em metros?");
+        double altura = scanner.nextDouble();
+        System.out.println("Qual seu peso em quilogramas?");
+        double massa = scanner.nextDouble();
+        double imc = massa / (altura * altura);
+        System.out.printf("Seu IMC é: %.2f\n" , imc );
+}
+}
