@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class questão5 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Quantas notas de cinco você irá usar?");
+        int notas = scanner.nextInt();
+        int valort = notas * 5; 
+
+        System.out.println("Quantos produtos você quer?");
+        int produtos = scanner.nextInt();
+        int valorp = produtos * 7;
+
+        if (valorp> valort) {
+            System.out.println("Você não tem dinheiro suficiente!");
+        }
+        else {
+            int total = valort - valorp;
+            System.out.println("O valor total foi R$"+ valorp + " e seu troco é R$" + total );
+        } 
+        scanner.close();           
+    }    
+    
+}
