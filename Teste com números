@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+
+public class ex {
+    public static void main(String[] args) {
+        float a;
+        float b;
+    
+
+        a = Float.parseFloat(JOptionPane.showInputDialog(null, "Primeiro número: "));
+        b = Float.parseFloat(JOptionPane.showInputDialog(null, "Segundo número: "));
+
+        JOptionPane.showMessageDialog(null, "O resultado das seguintes operações utilizando dos números informados é: \n Soma: " + (a+b) + "\n Subtração: " + (a-b) + "\n Divisão: " + (a/b) + "\n Multiplicação: " + (a*b));
+    }
+   
+}
