@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane; //javax.swing.JOptionPane -> CAIXAS DE DIALOGO.
+
+public class code {
+
+    public static void main (String[] args){ //Método Principal.
+    
+    String nome;
+
+    nome =  JOptionPane.showInputDialog("Qual seu nome?");
+            JOptionPane.showMessageDialog(null, "Seu nome é: " + nome);
+
+}
+}
